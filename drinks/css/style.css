@@ -1,0 +1,523 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after
+*::before{
+    box-sizing: inherit;
+}
+
+a {
+   text-decoration: none;
+}
+
+h3{
+    font-family: 'Liberation Serif';
+    font-size: 30px;
+    line-height: 44px;
+}
+h4{
+    color: #000;
+}
+
+body {
+   box-sizing: border-box;
+   color: #000000;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+}
+
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.line{
+    position: absolute;
+    height: 1px;
+    left: 4.17%;
+    right: 4.17%;
+    background: #BDBDBD;
+    margin-bottom: 59px;
+}
+
+.first__line{
+    height: 50px;
+    background: #191919;
+}
+
+.line__text{
+    text-align: center;
+    padding-top: 16px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.menu_header{
+    display: flex;
+}
+.menu__one{
+    background-image: url(../img/menu_!.jpg);
+    width: 50%;
+    padding-top: 38px;
+    height: 800px;
+    justify-content: flex-start;
+}
+.menu__two{
+    height: 800px;
+    background: #996B60;
+    padding-top: 38px;
+    width: 50%;
+    align-items: flex-end;
+    
+}
+.item{
+    margin-left: 60px;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+.menu__list{
+   margin-bottom: 254px;
+   display: flex;
+   color: #FFFFFF;
+   justify-content: flex-end;
+}
+
+.header__dowm{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__down-title{
+    margin-bottom: 34px;
+    font-size: 73px;
+    line-height: 96px;
+    font-family: 'Aboreto', cursive;
+}
+
+.header__down-paragraph{
+    margin-bottom: 36px;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.header__down-button{
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 20px 52px 20px 52px;
+    border: 1px solid #FFFFFF;
+    background: #996B60;
+    width: 180px;
+}
+
+.logo{
+    position: absolute;
+    top: 70px;
+    left: 47%;
+    transform: -50%;
+}
+
+.column{
+    margin-top: 59px;
+    padding-bottom: 21px;
+}
+
+.column__item-text{
+    font-size: 18px;
+    line-height: 32px;
+    color: #000;
+    text-align: center;
+}
+
+.column__item{
+    width: 290px;
+}
+
+.column__items{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 94px;
+}
+
+.column__item-img{
+    margin-top: 36px;
+}
+
+.made__main-title{
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    color: #000;
+    text-align: center;
+    margin-top: 104px;
+}
+
+.made__text{
+    text-align: center;
+}
+
+.made__column{
+    display: flex;
+    justify-content: space-around; 
+    align-items: stretch;
+    margin-top: 82px;
+}
+
+.made__column-item{
+    max-width: 382px;
+    text-align: center;
+}
+
+.made__text{
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.made__button{
+    padding: 18px 48px;
+    background: #191919;
+    border: 1px solid #191919;
+    color: #FFFFFF;
+    margin-top: 27px;
+    margin-bottom: 140px;
+}
+
+.line{
+    position: absolute;
+    height: 1px;
+    left: 4.17%;
+    right: 4.17%;
+    background: #BDBDBD;
+}
+
+.line_one{
+    margin-bottom: 104px;
+}
+
+.line_two{
+    margin-bottom: 59px;
+}
+
+.storage__img{
+    margin-top: 60px;
+    margin-bottom: 59px;
+
+}
+
+.storage__items{
+    display: flex;
+    justify-content: space-between
+}
+
+.storage__title{
+    width: 427px;
+    color: #000;
+    font-family: 'Liberation Serif'; 
+    font-size: 53px;
+    line-height: 80px;
+}
+
+.storage__text{
+    max-width: 548px;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 95px;
+}
+
+.description{
+    margin-top: 50px;
+}
+
+.description__section{
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.description__items{
+    margin-right: 59px;
+}
+
+.description__img{
+    left: 100%;
+}
+
+.description__title{
+    margin-bottom: 20px;
+}
+
+.description__text{
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 32px;
+    
+}
+
+.description__title-enough{
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #191919;
+    font-family: 'Liberation Serif'; 
+}
+
+.reviews{
+    background: #000000;
+    height: 313px;
+    color: #FFFFFF;
+}
+
+.reviews__items{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 50px;
+}
+
+.reviews__item +.reviews__item{
+    margin-left: 150px;
+}
+
+.reviews__person{
+    margin-bottom: 17px;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.reviews__name{
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.reviews__text{
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #8A8A8A;
+}
+
+.differently__section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 59px;
+}
+
+.differently__title{
+   font-size: 64px;
+   line-height: 80px;
+   font-family: 'Liberation Serif';
+}
+
+.differently__items{
+    margin-left: 110px;
+}
+
+.differently__text{
+    margin-top: 154px;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.differently__text-litle{
+    margin-top: 35px;  
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.social{
+    background-image: url(../img/social.jpg);
+    height: 508px;
+    padding-top: 60px;
+}
+
+.social__box{
+    background-color: #000;
+    height: 220px;
+    max-width: 432px;
+    padding: 40px 60px 40px 60px;
+    text-align: center;
+}
+
+.social__follow{
+    background-color: #000;
+    height: 105px;
+    width: 550px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social__follow-text{
+    padding-top: 15px;
+    margin-bottom: 17px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.social__box-title{
+    font-family: 'Liberation Serif';
+    font-size: 55px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.social__box-text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 9px;
+}
+
+.social__box-button{
+    margin-top: 26px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    height: 52px;
+    width: 180px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.social__link{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.social__link + .social__link{
+    margin-left: 21px;
+}
+
+.footer{
+    background-color: #000;
+    color: #FFFFFF;
+}
+
+.footer__column{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__clik{
+    max-width: 424px;
+}
+
+.footer__title{
+   font-size: 42px;
+   line-height: 72px;
+   font-family: 'Liberation Serif';
+}
+
+.footer__text{
+   font-size: 18px;
+   line-height: 27px;
+   margin-top: 12px;
+}
+
+.footer__input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__input-item{
+    margin-top: 32px;
+    background: #000;
+    border: none;
+    width: 253px;
+    color: #FFFFFF;
+    padding-right: 50px;
+}
+
+.footer__button{
+    font-size: 12px;
+    height: 14px;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #000;
+    border: none;
+    margin-top: 33px;
+}
+
+.footer__line{
+    height: 1px;
+    margin-top: 21px;
+    background: #8A8A8A
+}
+
+.footer__column{
+    padding-top: 55px;
+    display: flex;
+    padding-bottom: 141px;
+}
+
+.footer__items{
+    display: flex;
+    max-width: 50%;
+    justify-content: space-around;
+}
+.footer__item__title{
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer__explore{
+   margin-right: 81px;
+}
+
+.footer__item{
+    display: inline-block;
+    display: flex;
+    margin-top: 21px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__follow{
+    margin-right: 137px;
+}
+
+.footer__policy{
+    padding-bottom: 55px;
+}
+
+.footer__policy__item{
+    margin-right: 60px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__span{
+    font-size: 15px;
+    color: #FFFFFF;
+}
